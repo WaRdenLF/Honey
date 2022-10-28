@@ -1,0 +1,404 @@
+@import url(./fonts.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.header__wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+
+}
+.container {
+    max-width: 1176px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    
+}
+
+
+
+.header__menu{
+   display: flex;
+   align-items: center;
+   gap:40px;
+   
+   
+}
+.header__link{
+font-family: 'Kodchasan-Medium';
+font-size: 18px;
+font-weight: 500;
+text-decoration:none;
+color: #000000;
+line-height: 23px;
+transition: 0.5s;
+
+}
+
+.header__item{
+    list-style-type:none;
+}
+
+.header__link:hover{
+font-family: 'Kodchasan-Bold';
+font-size: 18px;
+font-weight: 700;
+line-height: 23px;
+color: #000000;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    padding: 0 50px;
+    padding-bottom: 130px;
+      
+}
+
+.banner__btn{
+    background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
+    height: 865px;
+    width: 1500px;
+    border-radius: 30px;
+    
+}
+
+.banner__img{
+    height: 865px;
+    width: 1500px;
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    display: flex;
+    background-position: center;
+    justify-content: space-between;
+}
+
+.banner__menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 177px;
+    gap:70px;
+}
+
+.banner__text{
+    font-family: 'Kodchasan-Bold';
+    font-size: 100px;
+    line-height: 130px;
+    padding-top: 182px;
+}
+
+
+
+.licking{  
+   padding-left: 190px;
+}
+
+
+
+.btn__wrap{
+   display: flex;
+   align-items: center;
+   gap: 30px;
+   padding-bottom: 138px;
+}
+
+.btn__one{
+    border: 2px solid black;
+    background: transparent;
+    font-family:'Kodchasan-Bold';
+    font-size: 18px;
+    transition: 0.5s;
+    padding: 18px 50px;
+    
+}
+
+.btn__one:hover{
+    background: #000000;
+    color: white;
+}
+
+.btn__second{
+   border: 2px solid black;
+   background: transparent;
+   font-family:'Kodchasan-Bold';
+   padding: 18px 50px 18px 50px;
+   font-size: 18px;
+   transition: 0.5s;
+   
+}
+
+.btn__second:hover{
+    background: #000000;
+    color: white;
+}
+
+.honey__img{
+    height: 650px;
+    width: 686.83px;
+margin-right: 10.17px;
+margin-top: 124px;
+}
+
+.text{
+    font-family: 'Kodchasan-Bold';
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 72px;
+    
+     
+}
+
+.logo__wrap{
+  display: flex;
+  align-items: center;    
+}
+
+.logo__menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding-top: 50px;
+    gap: 102px;
+    
+}
+ 
+.logo__list{
+    list-style-type: none;
+ 
+}
+
+
+
+.honeyone__wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding-top: 130px;
+    
+    
+}
+
+.honeyone__p{
+    font-family: 'Kodchasan-Bold';
+font-size: 45px;
+font-weight: 700;
+line-height: 65px;
+color: black;
+}
+
+.honeyone__m{
+    padding-bottom: 50px;
+    font-family: 'Kodchasan-SemiBold';
+font-size: 22px;
+line-height: 35px;
+color: #000000;
+padding: 30px 0 50px 0;
+
+
+}
+
+
+.honey__one{
+    height: 59px;
+    margin-bottom: 50px;
+    background:#E58311 ;
+    font-family: 'Kodchasan-Bold';
+   color:white;
+font-size: 18px;
+border: 2px solid #E58311;
+line-height: 29px;
+  padding: 15px 40px 15px 40px;
+  transition: 0.5s
+  
+}
+
+.honey__one:hover{
+    background: #FFFFFF;
+    color:#E58311;
+    border: 2px solid #E58311;
+   
+ 
+}
+
+
+
+
+.honeysecond__p{
+    font-family: 'Kodchasan-Bold';
+font-size: 45px;
+font-weight: 700;
+line-height: 65px;
+
+
+
+
+}
+
+.honeysecond__m{
+    font-family: 'Kodchasan-SemiBold';
+font-size: 22px;
+line-height: 35px;
+font-weight: 600;
+padding: 30px 0 50px 0;
+
+
+}
+.container_fluid{
+    max-width: 1530px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.container__end{
+    margin-top: 100px;
+}
+
+
+.first__wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.wrap__link{
+color: #E58211;
+font-family: 'Kodchasan-Bold';
+font-size: 18px;
+font-weight: 700;
+line-height: 29px;
+
+}
+
+.main__box{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+   
+   
+    
+}
+
+.main__one{
+    height: 305px;
+    width: 558px;
+    background: #fdf6ee;
+    display: flex;
+   
+  
+
+}
+
+
+.main__heading{
+    font-family: 'Kodchasan-SemiBold';
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 39px;
+    padding-top: 45px;
+    padding-left: 30px;
+  
+}
+
+.main__text{
+    font-family: 'Kodchasan-SemiBold';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+ padding-top: 20px;
+ padding-left: 30px;
+ 
+
+
+ 
+}
+.miel__img{
+    padding: 29px 0px;
+
+}
+
+.main__btn1{
+    padding: 10px 30px;
+    font-family: 'Kodchasan-Bold';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #E58211;;
+    background: transparent;
+    border: 2px solid #E58211;
+    transition: 0.5s;
+}
+  
+.main__btn{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.main__btn1:hover{
+    background:#E58211;
+    color: white;
+}
+.basswood__img{
+    padding: 43px 40px;
+}
+
+
+.footer{
+    margin-top: 130px;
+    background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
+  
+}
+
+
+.wrap{
+   padding: 45px 0;
+   display: flex;
+   justify-content:space-evenly;
+   align-items: center;
+}
+
+.honey__end{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.honey__text{
+    font-family: 'Kodchasan-Medium';
+font-size: 14px;
+font-weight: 500;
+line-height: 22px;
+}
+
+
+.list__footer{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+   
+}
+
+.icon{
+    list-style-type: none;
+}
+.store{
+    display: flex;
+    gap: 20px;
+    padding-left: 174px;
+}
+
+.list__menu{
+    padding-left: 88px;
+
+
+}
