@@ -404,7 +404,7 @@ line-height: 22px;
 }
 
 /* Адаптив для экранов до 480px (телефоны) */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
 
   .header__wrap {
     flex-direction: column;
